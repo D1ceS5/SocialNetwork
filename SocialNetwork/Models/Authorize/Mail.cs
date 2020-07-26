@@ -7,5 +7,7 @@ namespace SocialNetwork.Models
 {
     public class Mail
     {
+        public int MailId { get; set; }
+        public int Text { get; set; }
     }
 }

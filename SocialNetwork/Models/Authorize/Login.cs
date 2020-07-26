@@ -7,5 +7,7 @@ namespace SocialNetwork.Models
 {
     public class Login
     {
+        public int LoginId { get; set; }
+        public string Text { get; set; }
     }
 }

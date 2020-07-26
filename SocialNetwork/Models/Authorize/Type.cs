@@ -7,5 +7,7 @@ namespace SocialNetwork.Models
 {
     public class Type
     {
+        public int TypeId { get; set; }
+        public string Text { get; set; }
     }
 }
