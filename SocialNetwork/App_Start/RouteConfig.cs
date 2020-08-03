@@ -11,9 +11,18 @@ namespace SocialNetwork
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            //routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapPageRoute("login", "login", "../Authentification/Auth.aspx");
+            routes.MapPageRoute("login", "Pages/login", "~/Pages/Login.aspx");
+            routes.MapPageRoute(null, "Pages/login", "~/Pages/Login.aspx");
+            routes.MapPageRoute(null, "", "~/Pages/Login.aspx");
+
+            routes.MapPageRoute("register", "Pages/register", "~/Pages/Register.aspx");
+            routes.MapPageRoute(null, "Pages/register", "~/Pages/Register.aspx");
+
+            routes.MapPageRoute("main", "Pages/main", "~/Pages/Main.aspx");
+            routes.MapPageRoute(null, "main", "~/Pages/Main.aspx");
+            routes.MapPageRoute(null, "Pages/main", "~/Pages/Main.aspx");
         }
     }
 }

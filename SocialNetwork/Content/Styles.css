@@ -1,0 +1,88 @@
+﻿html {
+    font-family: 'Rowdies', cursive;
+    background: url(https://img4.goodfon.ru/wallpaper/nbig/a/5e/3d-rendering-background-design-colorful-abstract-geometry--3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#title {
+    color: #414242;
+    text-align: center;
+    text-shadow: 5px 0px 6px rgba(250, 5, 5, 1);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: #414242;
+    text-shadow: 5px 0px 6px rgba(250, 5, 5, 1);
+}
+
+.logo {
+    display: block;
+    margin-top: 3%;
+    font-size: 30;
+}
+
+#fields {
+    display: block;
+}
+
+#fields_form {
+    margin-left: 35%;
+    width: 400px;
+    height: 450px;
+    border: 2px dashed rgba(250, 5, 5, 1);
+    border-radius: 50px;
+}
+
+.fields_style {
+    width: 100px;
+    height: 400px;
+    margin-left: 40px;
+}
+
+form {
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 37px 9px rgba(250, 5, 5, 1);
+    -moz-box-shadow: 0px 0px 37px 9px rgba(250, 5, 5, 1);
+    box-shadow: 0px 0px 37px 9px rgba(250, 5, 5, 1);
+}
+
+    form input {
+        box-sizing: border-box;
+        height: 25px;
+        border: 1px solid rgba(250, 5, 5, 1);
+    }
+
+.wtf {
+    margin-bottom: 30px;
+}
+
+.sub_btn {
+    margin-top: -10px;
+    width: 25%;
+    font-size: 14pt;
+    height: 55px;
+    border: 1px solid rgba(250, 5, 5, 1);
+    border-radius: 50px;
+}
+
+#send_btn {
+    width: 25%;
+    font-size: 14pt;
+    height: 25px;
+    border: 1px solid rgba(250, 5, 5, 1);
+    border-radius: 50px;
+}

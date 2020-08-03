@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Auth.aspx.cs" Inherits="SocialNetwork.Views.Authentification.Auth" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Main.aspx.cs" Inherits="SocialNetwork.Pages.Main" %>
 
 <!DOCTYPE html>
 
