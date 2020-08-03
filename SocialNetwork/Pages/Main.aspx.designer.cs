@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SocialNetwork.Views.Authentification
+namespace SocialNetwork.Pages
 {
 
 
-    public partial class Auth
+    public partial class Main
     {
 
         /// <summary>

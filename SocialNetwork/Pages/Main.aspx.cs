@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace SocialNetwork.Views.Authentification
+namespace SocialNetwork.Pages
 {
-    public partial class Auth : System.Web.UI.Page
+    public partial class Main : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
