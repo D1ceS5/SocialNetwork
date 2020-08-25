@@ -13,5 +13,6 @@ namespace SocialNetwork.Models.Repository
         public DbSet<Mail> Mails { get; set; }
         public DbSet<Password> Passwords { get; set; }
         public DbSet<Type> Types { get; set; }
+        public DbSet<User.User> Users { get; set; }
     }
 }

@@ -13,11 +13,16 @@ namespace SocialNetwork.Models.Repository
         public List<Mail> Mails { get { return context.Mails.ToList(); } }
         public List<Password> Passwords { get { return context.Passwords.ToList(); } }
         public List<Type> Types { get { return context.Types.ToList(); } }
-
+        public List<User.User> Users { get { return context.Users.ToList(); } }
 
         public void RegisterNewAcc(Account account)
         {
             context.Accounts.Add(account);
+            context.SaveChanges();
+        }
+         public void CreateUser(SocialNetwork.Models.User.User user)
+        {
+            context.Users.Add(user);
             context.SaveChanges();
         }
     }

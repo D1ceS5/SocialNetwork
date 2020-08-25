@@ -126,6 +126,7 @@ namespace SocialNetwork.Views
                     {
                         repository.RegisterNewAcc(new Models.Account() { Login = new Models.Login() { Text = lst }, Password = new Models.Password() { Text = pst }, Mail = new Models.Mail() { Text = mst }, Type = new Models.Type() { Text = "User" } });
                     }
+                    repository.CreateUser(new Models.User.User() { Account = repository.Accounts.Where(a => a.Login.Text == lst).FirstOrDefault(), PicPath = "~/Content/Image/empty-profile.png", SubscribedCount = 0, SubscribersCount = 0 });
                 }
             }
         }

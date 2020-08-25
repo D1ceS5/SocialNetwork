@@ -34,6 +34,7 @@ namespace SocialNetwork.Views
 
                         if (accs!=null)
                         {
+                            StaticInfo.User = repository.Users.Where(u => u.Account.Login.Text == l).FirstOrDefault();
                             Response.Redirect("main");
                         }
                         else

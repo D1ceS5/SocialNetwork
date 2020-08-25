@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SocialNetwork.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,13 @@ namespace SocialNetwork.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if(StaticInfo.User.PicPath != "~/Content/Image/empty-profile.png")
+            {
+                propic.Src = StaticInfo.User.PicPath;
+            }
+            name.InnerText = StaticInfo.User.Account.Login.Text;
+            testbutton1.InnerText = StaticInfo.User.SubscribersCount.ToString();
+            testbutton2.InnerText = StaticInfo.User.SubscribedCount.ToString();
         }
     }
 }

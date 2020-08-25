@@ -23,6 +23,18 @@ namespace SocialNetwork
             routes.MapPageRoute("main", "Pages/main", "~/Pages/Main.aspx");
             routes.MapPageRoute(null, "main", "~/Pages/Main.aspx");
             routes.MapPageRoute(null, "Pages/main", "~/Pages/Main.aspx");
+
+            routes.MapPageRoute("subers", "Pages/subers", "~/Pages/Subscribers.aspx");
+            routes.MapPageRoute(null, "subers", "~/Pages/Subscribers.aspx");
+            routes.MapPageRoute(null, "Pages/subers", "~/Pages/Subscribers.aspx");
+
+            routes.MapPageRoute("dialogs", "Pages/dialogs", "~/Pages/Dialogs.aspx");
+            routes.MapPageRoute(null, "dialogs", "~/Pages/Dialogs.aspx");
+            routes.MapPageRoute(null, "Pages/dialogs", "~/Pages/Dialogs.aspx");
+
+            routes.MapPageRoute("subs", "Pages/subs", "~/Pages/Subscriptions.aspx");
+            routes.MapPageRoute(null, "subs", "~/Pages/Subscriptions.aspx");
+            routes.MapPageRoute(null, "Pages/subs", "~/Pages/Subscriptions.aspx");
         }
     }
 }

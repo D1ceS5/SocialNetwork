@@ -95,11 +95,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Styles.css" />
+    <Content Include="Content\Image\empty-profile.png" />
+    <Content Include="Content\Image\fon7.png" />
+    <Content Include="Content\profile.css" />
+    <Content Include="Content\styles.css" />
+    <Content Include="Content\StylesX.css" />
     <Content Include="Global.asax" />
+    <Content Include="Pages\Dialogs.aspx" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\Main.aspx" />
     <Content Include="Pages\Register.aspx" />
+    <Content Include="Pages\Subscribers.aspx" />
+    <Content Include="Pages\Subscriptions.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -114,12 +121,35 @@
     <Compile Include="Models\Repository\EFDbContext.cs" />
     <Compile Include="Models\Repository\Repository.cs" />
     <Compile Include="Models\Authorize\Type.cs" />
+    <Compile Include="Models\StaticInfo.cs" />
+    <Compile Include="Models\UserModel\User.cs" />
+    <Compile Include="Pages\Dialogs.aspx.cs">
+      <DependentUpon>Dialogs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dialogs.aspx.designer.cs">
+      <DependentUpon>Dialogs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Main.aspx.cs">
       <DependentUpon>Main.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\Main.aspx.designer.cs">
       <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Subscribers.aspx.cs">
+      <DependentUpon>Subscribers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Subscribers.aspx.designer.cs">
+      <DependentUpon>Subscribers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Subscriptions.aspx.cs">
+      <DependentUpon>Subscriptions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Subscriptions.aspx.designer.cs">
+      <DependentUpon>Subscriptions.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Pages\Login.aspx.cs">
@@ -139,6 +169,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Pages\web.config" />
+    <Content Include="Content\Fonts\Cyberpunk.ttf" />
+    <Content Include="Content\Fonts\CyberSiberia.ttf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
